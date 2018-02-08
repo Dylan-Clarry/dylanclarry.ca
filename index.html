@@ -17,68 +17,65 @@
 	<!-- links -->
 	<link rel="shortcut icon" type="image/png" href="favicon.ico" />
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans|Source+Sans+Pro:400,700,900" rel="stylesheet">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
 <body>
 
-	<div class="container-fluid">
-		<div class="row">
+	<!-- grid -->
+	<div class="grid">
 
-			<!-- left-side -->
-			<div id="left-side" class="col-md-5">
-				<h1>Dylan<br>Clarry</h1>
-				<h2>Student and Web Developer</h2>
-				<p id="bio">Hi! I'm Dylan. I'm a self taught web developer based in Waterloo Ontario. I'm currently studying Computer Science at <a href="https://www.wlu.ca/" target="_blank">Wilfrid Laurier University</a>. Feel free to <a href="mailto:dylan@dylanclarry.ca" target="_blank">get in touch with me</a>.</p>
-				<button onclick="window.location.href='DylanClarry.pdf'" type="button" class="resume-btn btn btn-info"><p>View Resume <i class="fa fa-arrow-right" aria-hidden="true"></i></p></button>
-				<!-- social-media -->
-				<ul id="social-media">
-					<li><a href="https://www.facebook.com/dc1324" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-					<li><a href="https://github.com/Dylan-Clarry" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a></li>
-					<li><a href="https://www.linkedin.com/in/dylan-c-42768210b/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-					<li><a href="mailto:dylan@dylanclarry.ca" target="_blank"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
-				</ul><!-- /social-media -->
+		<!-- left-side -->
+		<div class="grid-left-side left-side">
 
-			</div><!-- /left-side -->
+			<h1>Dylan<br>Clarry</h1>
+			<h2>Student and Web Developer</h2>
 
-			<!-- right-side -->
-			<div id="right-side">
-				
-				<!-- au -->
-				<div class="background-blue col-md-7 col-md-offset-5">
-					<div class="content-container">
-						<div class="row">
-							<div class="col-md-9 col-md-offset-2">
-								<img src="img/au/au-site.png">
-							</div>
-							<div class="col-md-12">
-								<h3>Bradley Au <a href="https://dylan-clarry.github.io/bradleyau.com/" target="_blank"><i class="fa fa-globe" aria-hidden="true"></i></a><a href="https://github.com/Dylan-Clarry/bradleyau.com" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a></h3>
-								<p>Personal Website</p>
-								<p>HTML | CSS | Bootstrap | JS/JQuery | Chart.js</p>
-							</div>
-						</div><!-- /row -->
-					</div><!-- /content-container -->
-				</div><!-- /au -->
+			<p id="bio">Hi! I'm Dylan. I'm a self taught web developer based in Waterloo Ontario. I'm currently studying Computer Science at <a href="https://www.wlu.ca/" target="_blank">Wilfrid Laurier University</a>. Feel free to <a href="mailto:dylan@dylanclarry.ca" target="_blank">get in touch with me</a>.</p>
 
-				<!-- footer -->
-				<div id="footer" class="background-black col-md-7 col-md-offset-5">
-					<div>
-						<!-- social-media -->
-						<ul>
-							<li><a href="https://www.facebook.com/dc1324" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-							<li><a href="https://github.com/Dylan-Clarry" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a></li>
-							<li><a href="https://www.linkedin.com/in/dylan-c-42768210b/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-							<li><a href="mailto:dylan.imail@gmail.com" target="_top"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
-						</ul><!-- /social-media -->
-					</div>
-				</div><!-- /footer -->
-			</div><!-- /right-side -->
-		</div><!-- /row -->
-	</div><!-- /column -->
+			<button onclick="window.location.href='dylanclarry.pdf'" type="button" class="resume-btn btn btn-info"><p>View Resume</p><i class="fa fa-arrow-right" aria-hidden="true"></i></button>
 
-	<!-- scripts -->
-	<script src="https://code.jquery.com/jquery-3.2.1.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+			<!-- social-media -->
+			<ul id="social-media">
+				<li><a href="https://www.facebook.com/dc1324" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+				<li><a href="https://github.com/Dylan-Clarry" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+				<li><a href="https://www.linkedin.com/in/dylan-c-42768210b/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+				<li><a href="mailto:dylan@dylanclarry.ca" target="_blank"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
+			</ul><!-- /social-media -->
+
+		</div><!-- /left-side -->
+
+		<!-- right-side -->
+		<div class="grid-right-side right-side">
+
+			<!-- au -->
+			<div class="content-container au">
+
+				<img src="img/au/au-site.png">
+
+				<h3>Bradley Au <a href="https://dylan-clarry.github.io/bradleyau.com/" target="_blank"><i class="fa fa-globe" aria-hidden="true"></i></a><a href="https://github.com/Dylan-Clarry/bradleyau.com" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a></h3>
+				<p>Personal Website</p>
+				<p>HTML | CSS | Bootstrap | JS/JQuery | Chart.js</p>
+
+			</div><!-- /au -->
+
+			<!-- footer -->
+			<div class="footer">
+				<div>
+					<!-- social-media -->
+					<ul>
+						<li><a href="https://www.facebook.com/dc1324" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+						<li><a href="https://github.com/Dylan-Clarry" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+						<li><a href="https://www.linkedin.com/in/dylan-c-42768210b/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+						<li><a href="mailto:dylan.imail@gmail.com" target="_top"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
+					</ul><!-- /social-media -->
+				</div>
+			</div><!-- /footer -->
+
+		</div><!-- /right-side -->
+		
+	</div><!-- /grid -->
+
+
 </body>
 </html>
