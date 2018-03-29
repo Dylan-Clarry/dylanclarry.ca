@@ -8,24 +8,28 @@
 	padding: 2.5%;
 
 	#bio {
+		padding: 20px 0;
+
+		p {
 		max-width: 500px;
-		padding: 40px 0;
+		padding: 10px 0;
 		text-decoration: none;
+		}
 	}
+
+	
 
 	h1 {
 		font-size: 40px;
 		font-weight: 900;
 		text-transform: uppercase;
 	}
-		
 
 	h2 {
 		font-size: 30px;
 		padding-top: 15px;
 	}
 		
-
 	button p {
 		display: inline-block;
 	}
@@ -35,20 +39,16 @@
 		padding-left: 10px;
 	}
 		
-
 	#social-media {
-		position: relative;
 		text-align: center;
 		text-decoration: none;
 		padding: 40px 0;
 		margin: 0 auto;
-		vertical-align: bottom;
 
 		li {
 			display: inline-block;
 			font-size: 25px;
 		}
-			
 
 		i {
 			color: #5185E8;
@@ -81,7 +81,6 @@
 		padding: 2% 0;
 	}
 }
-	
 
 .cg {
 	background-color: $bg-salmon;
@@ -90,8 +89,6 @@
 		width: 60%;
 	}
 }
-	
-
 
 // ====================
 // content-container
