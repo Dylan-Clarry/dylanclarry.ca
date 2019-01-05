@@ -2,24 +2,20 @@ sass/
 |
 |- base/
 |
-|	|- _reset.sass
-|	|- _typography.sass
+|	|- _reset.scss
+|	|- _typography.scss
 |
 |- components/
 |
-|	|- _buttons.sass
+|- pages/
+|
+|	|- _index.scss
 |
 |- helpers/
 |
-|- layout/
+|- utilities/
 |
-|	|- _grid.sass
-|
-|- pages/
-|
-|	|- _index.sass
-|
-|- themes/
+|	|- _variables.scss
 |
 |- vendors/
 |
