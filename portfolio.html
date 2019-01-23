@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-115076664-1"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+	  gtag('config', 'UA-115076664-1');
+	</script>
+	<!-- meta -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=0">
+	<meta name="description" content="Dylan Clarry, web developer and student at Wilfrid Laurier University">
+	<meta name="keywords" content="DylanClarry, Dylan, Clarry, Student, webdev, Web, Developer">
+	<meta property="og:site_name" content="Dylan Clarry" />
+	<meta property="og:title" content="Dylan Clarry" />
+	<meta property="og:description" content="Hi! I'm Dylan. I'm a web developer based in Waterloo Ontario. I'm currently studying Computer Science at Wilfrid Laurier University." />
+	<meta name="google-site-verification" content="UWbnqBoR9vg00Hk7ED8JURCOQDHzERj_N4z6opfls_8" />	
+	<!-- title -->
+	<title>Dylan Clarry - Portfolio</title>
+	<!-- links -->
+	<link rel="shortcut icon" type="image/png" href="favicon.ico" />
+	<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body>
+	<div class="container">
+		
+		<a class="back-btn" href="./index.html"><- Back</a>
+
+		<h1 class="portfolio-header">My Portfolio</h1>
+
+		<div class="portfolio">
+
+			<div class="card trigger snapchef">
+				<h1>SnapChef</h1>
+				<img src="./img/snapchef/snapchef.png" alt="SnapChef">
+			</div><!-- /card -->
+			<div class="modal snapchef-modal">
+				<div class="modal-content">
+					<span class="close-button">&times;</span>
+					<h1>SnapChef</h1>
+					
+					<img id="logo" src="./img/snapchef/logo.png" alt="logo">
+
+					<ul class="modal-links">
+						<li><a href="https://github.com/CP317-SnapChef/SnapChef" target="_blank"><i class="fa fa-github"></i></a></li>
+						<li><a href="https://htmlpreview.github.io/?https://raw.githubusercontent.com/CP317-SnapChef/SnapChef/master/Docs/index.html" target="_blank"><i class="fa fa-globe"></i></a></li>
+					</ul>
+					
+					<p>Snapchef is a phone application for Android and iOS platforms. It finds recipes for users and allows them to create their own based on various inputs such as pictures of ingredients or text list of ingredients.</p>
+
+					<div class="snapchef-views">
+						<img src="./img/snapchef/loginview.png" alt="loginview">
+						<img src="./img/snapchef/homeview.png" alt="homeview">
+						<img src="./img/snapchef/searchview.png" alt="searchview">
+					</div>
+
+					<p>The project was completed as a group of 22 people for a software engineering course at Laurier. To facilitate such a large group we split up into eight teams:</p>
+
+					<ul class="snapchef-list">
+						<li>Android</li>
+						<li>iOS</li>
+						<li>Backend</li>
+						<li>Database</li>
+						<li>Frontend Design</li>
+						<li>Machine Learning</li>
+						<li>Project Management</li>
+						<li>SQA</li>
+					</ul>
+
+					<p>Since we allowed ourselves to be on multiple teams at once, I was on iOS, frontend design, project management, and SQA. On top of this, my responsibilities were quality assurance, version control, and documentation.</p>
+
+					<img id="snapchef-overview" src="./img/snapchef/snapchef_designoverview.png" alt="snapchef_designoverview">
+
+					<p>While I can't take credit for the amazing original logo design, I was responsible for creating the apps UI/UX design. Admittedly, I am possibly the furthest thing from a graphic designer, so when coming up with the design I focused on making the UI and colours simple and for the UX to just focus on the main functionality of the app. All of the designs were created using Adobe Illustrator and Gravit.</p>
+
+					<p>Our iOS team was very small, and by very small I mean only two people, and those two people had never made an iOS app before. Working with Swift and XCode proved to be deceivingly difficult at times. For instance, in XCode there are two ways to do anything: programmatically or on the storyboard. The only problem with this was that a change made one way did not affect the other. For example, adding constraints programmatically did not update the constraints on the storyboard. This made it very difficult to keep track of what changes were being made and where they could be found. To deal with this we ended up creating strict rules for which types of problems would be solved in which way.</p>
+
+					<p>The overall experience I gained from this project was invaluable to me. I learned how to build an app with zero experience of XCode and Swift, I exercised my creative design muscle, I learned how version control works with a large group of developers, and I learned a great deal about project management.</p>
+
+				</div><!-- /modal-content -->
+			</div><!-- /modal -->
+		</div><!-- /portfolio -->
+
+		<footer>
+			<ul>
+				<li><a href="https://github.com/Dylan-Clarry" target="_blank">Github</a></li>
+				<li><a href="https://www.linkedin.com/in/dylanclarry" target="_blank">Linkedin</a></li>
+				<li><a href="https://www.facebook.com/dc1324" target="_blank">Facebook</a></li>
+				<li><a class="resume" onclick="window.location.href='dylanclarry.pdf'">Resume</a></li>
+				<li class="push-right"><a href="./index.html"><- Back</a></li>
+			</ul>
+		</footer>
+	</div><!-- /container -->
+
+	<!-- scripts -->
+	<script src="./js/script.js"></script>
+</body>
+</html>

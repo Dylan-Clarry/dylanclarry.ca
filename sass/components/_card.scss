@@ -1,0 +1,34 @@
+.card {
+	transition: all 0.1s linear;
+	height: 350px;
+	text-align: center;
+	cursor: pointer;
+
+	h1 {
+		padding-top: 50px;
+		color: $white;
+		font-size: 3em;
+		font-weight: 100;
+	}
+}
+
+.card:hover {
+	transform: scale(1.015);
+	-webkit-transform: scale(1.015);
+    -moz-transform: scale(1.015);
+    -o-transform: scale(1.015);
+    -webkit-box-shadow:rgba(0,0,0,0.1) 0px 5px 15px;
+    -moz-box-shadow:rgba(0,0,0,0.1) 0px 5px 15px;
+    -o-box-shadow:rgba(0,0,0,0.1) 0px 5px 15px;
+    box-shadow:rgba(0,0,0,0.1) 0px 5px 15px;
+}
+
+.snapchef {
+	
+	background-color: #FF7800;
+
+	img {
+		padding-top: 25px;
+		width: 115px;
+	}
+}

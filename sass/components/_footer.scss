@@ -18,9 +18,13 @@ footer {
 
 @media(min-width: $md) {
 	footer {
-
+		
 		ul {
 			text-align: left;
+
+			.push-right {
+				float: right;
+			}
 		}
 
 		li {

@@ -9,11 +9,6 @@ p {
 	font-weight: 100;
 }
 
-.container {
-	max-width: 85%;
-	margin: 0 auto;
-}
-
 .about {
 	padding-top: 25px;
 
@@ -21,6 +16,12 @@ p {
 		display: block;
 		margin: 25px auto;
 		width: 100px;
+		user-drag: none; 
+		user-select: none;
+		-moz-user-select: none;
+		-webkit-user-drag: none;
+		-webkit-user-select: none;
+		-ms-user-select: none;
 	}
 }
 
