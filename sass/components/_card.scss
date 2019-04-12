@@ -23,6 +23,7 @@
     box-shadow:rgba(0,0,0,0.1) 0px 5px 15px;
 }
 
+// snapchef
 .snapchef {
 	
 	background-color: #FF7800;
@@ -31,4 +32,19 @@
 		padding-top: 25px;
 		width: 115px;
 	}
+}
+
+// toronto waste lookup
+.toronto-waste-lookup {
+	background-image: linear-gradient(to right, #235A92, #28955D);
+}
+
+// post it board
+.post-it-board {
+	background-color: $salmon;
+}
+
+// ez140
+.ez140 {
+	background-color: $purple;
 }
