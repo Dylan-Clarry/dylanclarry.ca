@@ -8,7 +8,6 @@
 		padding-top: 50px;
 		color: $white;
 		font-size: 3em;
-		font-weight: 100;
 	}
 }
 
@@ -23,28 +22,38 @@
     box-shadow:rgba(0,0,0,0.1) 0px 5px 15px;
 }
 
-// snapchef
-.snapchef {
-	
-	background-color: #FF7800;
+.portfolio {
+	// snapchef
+	.snapchef {
+		
+		background-color: #FF7800;
 
-	img {
-		padding-top: 25px;
-		width: 115px;
+		h1 {
+			font-family: 'roboto', sans-serif;
+		}
+
+		img {
+			padding-top: 25px;
+			width: 115px;
+		}
 	}
-}
 
-// toronto waste lookup
-.toronto-waste-lookup {
-	background-image: linear-gradient(to right, #235A92, #28955D);
-}
+	// toronto waste lookup
+	.toronto-waste-lookup {
+		background-image: linear-gradient(to right, #235A92, #28955D);
+	}
 
-// post it board
-.post-it-board {
-	background-color: $salmon;
-}
+	// maclaughlin grain
+	.maclaughlin-grain {
+		background-color: $turquoise;
 
-// ez140
-.ez140 {
-	background-color: $purple;
+		h1 {
+			font-family: 'Alegreya', serif;
+			color: $black;
+		}
+
+		img {
+			padding-top: 100px;
+		}
+	}
 }

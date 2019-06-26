@@ -6,10 +6,15 @@
 .portfolio-header {
 	padding-top: 50px;
 	padding-bottom: 50px;
-	font-weight: 100;
 	font-size: 3.5em;
 }
 
 .pad-top-50 {
 	padding-top: 50px;
+}
+
+@media(min-width: $md) {
+	.portfolio {
+		grid-template-columns: repeat(2, 1fr);
+	}
 }

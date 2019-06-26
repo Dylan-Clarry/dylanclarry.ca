@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-115076664-1"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+	  gtag('config', 'UA-115076664-1');
+	</script>
+	<!-- meta -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=0">
+	<meta name="description" content="Dylan Clarry, web developer and student at Wilfrid Laurier University">
+	<meta name="keywords" content="DylanClarry, Dylan, Clarry, Student, webdev, Web, Developer">
+	<meta property="og:site_name" content="Dylan Clarry" />
+	<meta property="og:title" content="Dylan Clarry" />
+	<meta property="og:description" content="Hi! I'm Dylan. I'm a web developer based in Waterloo Ontario. I'm currently studying Computer Science at Wilfrid Laurier University." />
+	<meta name="google-site-verification" content="UWbnqBoR9vg00Hk7ED8JURCOQDHzERj_N4z6opfls_8" />	
+	<!-- title -->
+	<title>Dylan Clarry - Student and Web Developer</title>
+	<!-- links -->
+	<link rel="shortcut icon" type="image/png" href="favicon.ico" />
+	<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body>
+	<div class="container pad-top-50">
+		<a class="back-btn" href="./portfolio.html"><- Back</a>
+		
+	</div><!-- /container -->
+
+	<div class="hero-image maclaughlin-grain">
+		<img src="./img/logo-lg.png" alt="Maclaughlin-Grain">
+	</div><!-- / hero-image -->
+
+	<div class="container">
+		<div class="project-page maclaughlin-grain">
+			<section class="grid-2">
+				<div class="block">
+					<h1>MacLaughlin Grain</h1>
+				</div><!-- /block -->
+				<div class="block">
+					<p>MacLaughlin Grain is a custom live edge woodworking business based in Markham Ontario, building everything from charcuterie boards to side tables and dining tables. The website maclaughlingrain.ca was developed to allow the owner to upload products on the fly and give customers a simple way to purchase products and request work.</p>
+					<br>
+					<p>This project is a full stack CRUD (create, read, update, delete) web-app to manage inventory for the business. It features a RESTful API built in express and a client side single page application built in vanilla JavaScript for a smooth app-like feel.</p>
+				</div><!-- /block -->
+				<div class="block">
+					<p class="bold">Project Links</p>
+					<ul>
+						<li><a href="https://github.com/Dylan-Clarry/Maclaughlin-Grain-Frontend" target="_blank"><i class="fa fa-github"></i></a></li>
+						<li><a href="http://www.maclaughlingrain.ca" target="_blank"><i class="fa fa-globe"></i></a></li>
+					</ul>
+				</div><!-- /block -->
+			</section>
+
+			<hr>
+
+			<section class="grid-2">
+				<div class="block">
+					<h2>Frontend</h2>
+				</div><!-- /block -->
+				<div class="block">
+					<p>The frontend of the website is designed to be minimalistic and to have the products be the star of the show. Designed with Figma, the website is fully responsive and works across all devices.</p>
+					<br>
+					<p>Built as a single page app, the website is made to feel snappy and instantaneous to get an app-like feel and responsiveness.</p>
+				</div><!-- /block -->
+				<div class="block grid-img-full">
+					<img class="img-border" src="./img/mg/shop.png" alt="mg_shop">
+				</div><!-- /block -->
+				<div class="block grid-img-full">
+					<img class="img-border" src="./img/mg/about.png" alt="mg_about">
+				</div><!-- /block -->
+				<div class="block grid-img-full">
+					<img class="img-border" src="./img/mg/contact.png" alt="mg_contact">
+				</div><!-- /block -->
+			</section>
+
+			<hr>
+
+			<section class="grid-2">
+				<div class="block">
+					<h2>Backend</h2>
+				</div><!-- /block -->
+				<div class="block">
+					<p>The backend features a RESTful API built in Express and works asynchronously with the client side to deliver product information and to allow the business owner to create, read, update, and delete products. This API also features an emailing system for contact forms and product requests.</p>
+				</div><!-- /block -->
+			</section>
+			
+		</div><!-- /snapchef -->
+
+		<footer>
+			<ul>
+				<li><a href="https://github.com/Dylan-Clarry" target="_blank">Github</a></li>
+				<li><a href="https://www.linkedin.com/in/dylanclarry" target="_blank">Linkedin</a></li>
+				<li><a href="https://www.facebook.com/dc1324" target="_blank">Facebook</a></li>
+				<li><a class="resume" onclick="window.location.href='dylanclarry.pdf'">Resume</a></li>
+				<li class="push-right"><a href="./portfolio.html">Portfolio</a></li>
+			</ul>
+		</footer>
+	</div><!-- /container -->
+</body>
+</html>
