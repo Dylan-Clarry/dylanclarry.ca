@@ -120,15 +120,28 @@ p {
   -ms-user-select: none;
 }
 
+#magna-logo {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    transform: translateY(-4px);
+}
+
 @media (min-width: 992px) {
-  p {
-    text-align: left;
-    line-height: 48px;
-    font-size: 32px;
-  }
-  .about img {
-    display: block;
-    margin: 25px 0;
-    width: 100px;
-  }
+    p {
+        text-align: left;
+        line-height: 48px;
+        font-size: 32px;
+    }
+    .about img {
+        display: block;
+        margin: 25px 0;
+        width: 100px;
+    }
+    #magna-logo {
+        width: 32px;
+        height: 32px;
+        vertical-align: middle;
+        transform: translateY(-5px);
+    }
 }
